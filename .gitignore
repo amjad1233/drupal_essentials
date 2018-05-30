@@ -13,7 +13,7 @@ web/core
 
 # Core's dependencies are managed with Composer.
 web/vendor
-web/contrib
+web/modules/contrib/*
 
 # Ignore configuration files that may contain sensitive information.
 web/sites/*/settings.php
@@ -35,6 +35,7 @@ web.sites/simpletest
 # Ignore paths that contain user-generated content.
  */files
 private
+tmp/*
 
 # Ignore SimpleTest multi-site environment.
 simpletest
