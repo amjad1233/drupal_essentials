@@ -15,6 +15,9 @@ web/core
 web/vendor
 web/modules/contrib/*
 
+# All the libraries are maintined through Composer (Asset packagist).
+web/libraries/*
+
 # Ignore configuration files that may contain sensitive information.
 web/sites/*/settings.php
 web/sites/*/services*.yml
@@ -25,6 +28,10 @@ web/sites/*/private
 
 # Ignore SimpleTest multi-site environment.
 web.sites/simpletest
+
+# Ignore node modules
+node_modules/*
+node_modules
 
 # If you prefer to store your .gitignore file in the sites/ folder, comment
 # or delete the previous settings and uncomment the following ones, instead.
