@@ -44,7 +44,9 @@
         "drupal/environment_indicator": "^3.3",
         "drupal/shield": "^1.2",
         "drupal/file_browser": "^1.1",
-        "bower-asset/dropzone": "^5.1"
+        "bower-asset/dropzone": "^5.1",
+        "bower-asset/masonry": "^4.2",
+        "bower-asset/imagesloaded": "^4.1"
     },
     "replace": {
     },
